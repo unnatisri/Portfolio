@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unnati | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggle" id="navToggle">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-img-wrapper">
+                <img src="linkedin profile.jpg" alt="Profile Photo" class="profile-img" />
+            </div>
+            <div class="hero-content">
+                <h1>Hi, I'm Unnati Srivastava <span class="wave">👋</span></h1>
+                <h2 class="typewriter">Aspiring Developer | GenAI Enthusiast | Creative Coder</h2>
+                <p class="about-me">I'm passionate about building delightful digital experiences, exploring the world of Generative AI, and bringing creative ideas to life through code. Let's connect and create something amazing together!</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn neon" id="downloadResume">Open Resume</a>
+                    <a href="#contact" class="btn outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <span class="arrow"></span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="about-heading">About Me</h2>
+            <p class="about-intro">Hi, I'm Unnati Srivastava — a passionate web developer and GenAI enthusiast. I recently graduated and am exploring modern tools like Figma, Flutter, and generative AI to build creative digital experiences.</p>
+            <div class="skills-list animate-on-scroll">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">Figma</div>
+                <div class="skill-item">Flutter</div>
+                <div class="skill-item">Generative AI</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">C/C++</div>
+                <div class="skill-item">MySQL</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="projects-heading">Projects</h2>
+            <div class="projects-grid animate-on-scroll">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3 class="project-title">Personal Finance Manager</h3>
+                    <p class="project-desc">A responsive web app to manage and track personal expenses and savings.</p>
+                    <div class="project-tech">HTML, CSS, JavaScript</div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3 class="project-title">To-Do List App</h3>
+                    <p class="project-desc">A simple and clean task management app with add/delete functionality.</p>
+                    <div class="project-tech">HTML, CSS, JavaScript</div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <h3 class="project-title">Quiz App</h3>
+                    <p class="project-desc">An interactive quiz app with real-time question display and score tracking.</p>
+                    <div class="project-tech">HTML, CSS, JavaScript</div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <h3 class="project-title">RashiVeda</h3>
+                    <p class="project-desc">A fun zodiac app that provides daily rashifal and Vedic insights.</p>
+                    <div class="project-tech">HTML, CSS, JavaScript</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="contact-heading">Contact Me</h2>
+            <p class="contact-intro">Feel free to reach out to me through LinkedIn or drop me an email.</p>
+            <div class="contact-links animate-on-scroll">
+                <a href="https://www.linkedin.com/in/unnati-srivastava-955269290/" class="btn contact-link-btn linkedin" target="_blank" rel="noopener">
+                    <span class="contact-icon"><svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm15.5 11.268h-3v-5.604c0-1.337-.025-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.841-1.563 3.039 0 3.6 2.001 3.6 4.601v5.595z"/></svg></span>
+                    LinkedIn
+                </a>
+                <a href="mailto:unnati.srivastava2023@gmail.com" class="btn contact-link-btn email" target="_blank" rel="noopener">
+                    <span class="contact-icon"><svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12 13.065l-11.985-7.065v14c0 1.104.896 2 2 2h19.97c1.104 0 2-.896 2-2v-14l-11.985 7.065zm11.985-9.065c0-1.104-.896-2-2-2h-19.97c-1.104 0-2 .896-2 2v.217l12 7.083 11.97-7.083v-.217z"/></svg></span>
+                    Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
